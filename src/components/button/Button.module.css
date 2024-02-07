@@ -1,26 +1,32 @@
 .loadMoreBtn {
-    padding: 8px 16px;
-    margin: auto;
-    border-radius: 2px;
-    background-color: #3f51b5;
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    text-align: center;
-    display: inline-block;
-    color: #fff;
-    border: 0;
-    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    width: 180px;
+    height: auto;
     cursor: pointer;
-    font-family: inherit;
-    font-size: 18px;
-    line-height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    min-width: 180px;
-    box-shadow: 0px, 3px, 1px, -2px rgba(0, 0, 0, 0.2),
-    0px, 2px, 2px, 0px rgba(0, 0, 0, 0.14), 0px, 1px, 5px, 0px rgba(0, 0, 0, 0.12);
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: #0459f6;
+    border-color: transparent;
+    color: #000;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    padding: 10px;
+    box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);            
 }
 
 .loadMoreBtn:hover,
 .loadMoreBtn:focus {
-    background-color: #303f9f;
+    cursor: pointer;
+    border: 2px solid #0539f4;
+    background-color: #f7f706;
+    font-weight: 700;
+    border-radius: 20px;
+    color: #0b0b0b;
+    position: relative;
+    scale: 1.15;
 }

@@ -1,7 +1,8 @@
 .galleryItem {
     border-radius: 2px;
-    box-shadow: 0px, 1px, 3px, 0px rgba(0, 0, 0, 0.2),
-    0px, 1px, 1px 0px rgba(0, 0, 0, 0.14), 0px, 2px, 1px, -1px rgba(0, 0, 0, 0.12);
+    box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 5px 5px 9px -1px rgba(0, 0, 0, 0.47);
 }
 
 .galleryItemImage {
@@ -12,6 +13,6 @@
 }
 
 .galleryItemImage {
-    transform: scale(1.03);
+    transform: scale(1.05);
     cursor: zoom-in;
 }

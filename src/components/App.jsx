@@ -81,14 +81,19 @@ export class App extends Component {
     return (
       <div className={css.container}>
         <Searchbar onSubmitForm={this.handleSearchFormSubmit} />
+
         <ImageGallery images={images} onModalClick={this.openModal} />
+
         {showModal && (
           <Modal largeImageURL={largeImageURL} onCloseModal={this.closeModal} />
         )}
+
         {images.length > 0 && totalPages !== page && !showLoader && <Button onLoadMoreClick={this.loadMoreClick} />}
+
         {showLoader && <Loader />}
+        
         <ToastContainer autoClose={3000} />
       </div>
     );
   }
-}
+};
